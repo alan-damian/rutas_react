@@ -31,13 +31,13 @@ const Contact = ()=> {
 
             <form onSubmit={handleSubmit}>
                 <label htmlFor="name">Nombre:</label>
-                <input type="text" id="name" name="name" value={form.name} onChange={handleChange} required />
+                <input type="text" name="name" value={form.name} onChange={handleChange}/>
                 
                 <label htmlFor="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email" value={form.email} onChange={handleChange} required /><br />
+                <input type="email" name="email" value={form.email} onChange={handleChange}/><br />
                 
                 <label htmlFor="message">Mensaje:</label>
-                <textarea id="message" name="message" value={form.message} onChange={handleChange} required />
+                <textarea name="message" value={form.message} onChange={handleChange}/>
                 
                 <button type="submit">Enviar</button>
             </form>

@@ -24,6 +24,10 @@ const Navbar = () => {
               <NavLink to="/SubRutas">Sub Rutas</NavLink>
             </li>
 
+            <li>
+              <NavLink to="/Persona">Persona</NavLink>
+            </li>
+
           </ul>
       </nav>
     );
